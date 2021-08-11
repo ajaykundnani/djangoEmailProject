@@ -1,0 +1,14 @@
+<html>
+    <heda>
+
+    </heda>
+    <body>
+        <h1>Send Mail..</h1>
+        <form method="POST" action="">
+            {% csrf_token %}
+            <label>Message</label>
+            <textarea name="message"></textarea>
+            <input type="submit" value="Send"/>
+        </form>
+    </body>
+</html>
