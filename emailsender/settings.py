@@ -124,7 +124,7 @@ STATIC_URL = '/static/'
 
 
 
-EMAIL_HOST = 'smtp.gmail.com.'
+EMAIL_HOST = 'smtp.gmail.com...'
 EMAIL_HOST_USER = 'Enter Your Gmail'
 EMAIL_HOST_PASSWORD = 'Enter your Gmail Password'
 EMAIL_PORT = 587
